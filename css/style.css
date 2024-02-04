@@ -1,9 +1,150 @@
 body {
+  background-color: #357ec7;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   margin: 20px;
 }
+
+.tab {
+  width: 800px;
+  padding: 2px;
+  margin: 10px;
+  background-color: #989FA2;
+  border: 1px solid black;
+  box-shadow: inset 1px 1px #d9e2e6, 1px 1px #000;
+}
+
+.head {
+  width: auto;
+  padding:1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top:10px;
+  
+  p{
+    text-align:center;
+    color:white;
+    background-color: #12086f;
+    border: 1px solid black;
+  }
+}
+
+.inside-tabs{
+  width: auto;
+  border: 1px solid black;
+  padding:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  p{
+    text-align:left;
+    color:black;
+  }
+}
+
+.buttons{
+  width: auto;
+  border: 1px solid black;
+  box-shadow: inset 1px 1px #d9e2e6, 1px 1px #000;
+  padding:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+.bottom{
+  width: auto;
+  border: 1px solid black;
+  padding:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  p{
+    text-align:center;
+    color:black;
+  }
+}
+
+.inbox {
+  width: auto;
+  border: 1px solid black;
+  padding:1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top:10px;
+  background-color: #989FA2;
+  p{
+    text-align:center;
+    color:black;
+  }
+}
+
+.folders {
+  width: auto;
+  border: 1px solid black;
+  padding:1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top:10px;
+  p{
+    text-align:center;
+    color:black;
+    background-color: #989FA2;
+    border: 1px solid black;
+  }
+}
+
+.emails{
+  width: auto;
+  border: 1px solid black;
+  padding:1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top:10px;
+  p{
+    text-align:center;
+    color:black;
+    background-color: #989FA2;
+    border: 1px solid black;
+  }
+}
+
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/*background color when clicked or hover*/
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 h1 {
   font-size: 30px;
