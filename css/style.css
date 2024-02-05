@@ -23,6 +23,14 @@ body {
     background-color: #12086f;
     border: 1.5px solid black;
     margin:0px;
+    float:left;
+    width: 779px;
+  }
+  img {
+    margin:0px;
+    display:block;
+    float:left;
+    height:21.5px;
   }
 }
 
@@ -62,7 +70,7 @@ body {
 }
 
 .inbox {
-  width: auto;
+  width: 500px;
   border: 1.5px solid #989FA2;
   padding:1px;
   margin:0px;
@@ -72,6 +80,13 @@ body {
     color:black;
     border: 1.5px solid black;
     margin:0px;
+  }
+  img {
+    margin:0px;
+    display:block;
+    float:left;
+    height:21.5px;
+    float:left;
   }
 }
 
