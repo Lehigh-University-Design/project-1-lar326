@@ -3,13 +3,13 @@ body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  margin: 20px;
+  margin: 0px;
 }
 
 .tab {
   width: 850px;
   padding: 2px;
-  margin: 10px;
+  margin: 50px;
   background-color: #989FA2;
   border: 1.5px solid black;
   box-shadow: inset 1px 1px #d9e2e6, 1px 1px #000;
@@ -102,7 +102,7 @@ body {
 
 .folders {
   width: auto;
-  height: 200px;
+  height: 300px;
   border: 1px solid black;
   padding:0px;
   float:left;
@@ -162,7 +162,7 @@ body {
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 500px;
+    width: 600px;
     text-align: left;
     border: none;
     outline: none;
@@ -181,18 +181,19 @@ body {
   }
   
   .panel {
-    padding: 0 18px;
+    padding: 10px;
+    margin:3px;
     background-color: white;
     display: none;
     overflow: hidden;
-    width:400px;
+    width:500px;
     p{
-      width:400px;
+      width:500px;
       text-align:left;
       color:black;
       background-color: #989FA2;
       border: 1px solid black;
-      padding:2px;
+      padding:3px;
       margin:0px;
       box-shadow: inset 1px 1px #d9e2e6, 1px 1px #000;
       float:left;
@@ -200,56 +201,25 @@ body {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-h1 {
-  font-size: 30px;
-  font-weight: 300;
-}
-
-.special-headline {
-  font-weight: 900;
-  color: indigo;
-}
-
-#unique-headline {
-  font-weight: 600;
-  color: deeppink;
-}
-
-h2,h3,h4 {
-  font-weight: 300;
-  color: #111111;
-}
-
-.post{
-  border:1px solid black;
-  margin-bottom: 20px;
-  padding: 10px 20px 10px 20px; 
-  img {
-    width: 100%;
-    height: auto;
-    display: block;
+.very-bottom{
+  margin:0px;
+  padding:2px;
+  height:20px;
+  width: 815px;
+  border: 1px solid black;
+  box-shadow: inset 1px 1px #d9e2e6, 1px 1px #000;
+  p{
+    margin:0px;
+    text-align:right;
   }
 }
 
-.highlight {
-  background-color:#111111;
-  color: beige;
-  h2 {
-    color:bisque;
-  }
-}
+
+
+
+
+
+
+
 
 
